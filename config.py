@@ -1,0 +1,11 @@
+# Hyperparameters
+ACTOR_LR = 1e-4
+CRITIC_LR = 1e-3
+GAMMA = 0.99
+TAU = 0.005
+BUFFER_CAPACITY = 100000
+BATCH_SIZE = 64
+THETA = 0.15
+DT = 1e-2
+PATH_SAVE = 'models/'
+PATH_LOAD = 'models/'
